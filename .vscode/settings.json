@@ -1,0 +1,18 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "liveServer.settings.port": 8000,
+  "liveServer.settings.CustomHost": "0.0.0.0",
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  }
+}

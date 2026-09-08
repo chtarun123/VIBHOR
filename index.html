@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIBHOR — One India. Four Regions. Endless Heritage.</title>
+<meta name="description" content="An immersive Indian Heritage portal — explore 120 stories of temples, dances, foods, festivals, forts and crafts across North, South, East and West India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23D4AF37'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' font-family='Georgia' fill='%232B0000'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="home">
+
+<div id="nav-root" data-page="home"></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <span class="overline" style="justify-content:center">Indian Heritage Portal</span>
+    <h1>One India. Four Regions. <em>Endless Heritage.</em></h1>
+    <p class="hero-sub">From the snow temples of Kedarnath to the gopurams of Madurai, from the dhol beats of Punjab to the chenda thunder of Kerala — a single, organised journey through the living culture of India.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-gold" href="#regions">Explore the Regions</a>
+      <a class="btn btn-ghost" href="map.html">Open the Heritage Map</a>
+    </div>
+    <div class="hero-stats" id="heroStats"></div>
+  </div>
+</header>
+
+<!-- ============ COLLAGE STRIP ============ -->
+<section class="container" style="position:relative;z-index:5">
+  <div class="collage" id="collage"></div>
+</section>
+
+<!-- ============ REGIONS ============ -->
+<section class="section" id="regions">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Choose Your Region</span>
+      <h2>Four Regions, One Heartbeat</h2>
+      <p>Each region is a world of its own — pick a door, and step inside its temples, tables and festivals.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="regions-grid" id="regionsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section" id="categories" style="background:linear-gradient(180deg, transparent, rgba(43,0,0,.4), transparent)">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Choose Your Category</span>
+      <h2>Twelve Ways to See India</h2>
+      <p>Prefer to follow a thread instead of a map? Dive straight into dances, foods, temples and more — across every region.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="cats-grid" id="catsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ FEATURED ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="overline">Curated for You</span>
+      <h2>Featured Treasures</h2>
+      <p>A hand-picked taste from each of the four regions — the ones our curators keep returning to.</p>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="item-grid cols-3" id="featuredGrid"></div>
+    <div style="text-align:center;margin-top:34px" class="reveal">
+      <a class="btn btn-ghost" href="region.html">Browse All Stories →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about" style="background:linear-gradient(180deg, transparent, rgba(43,0,0,.45), transparent)">
+  <div class="container">
+    <div class="about-grid">
+      <div class="ag-text reveal">
+        <span class="overline">About Us</span>
+        <h2 style="font-size:clamp(1.8rem,3.4vw,2.5rem);margin:.6rem 0 1rem">Why VIBHOR Exists</h2>
+        <p>VIBHOR (meaning <em>“splendour”</em> in Sanskrit) is a single, organised journey through 120 heritage stories — ten per category, in every region. Instead of making you search, we lay out the entire country as <b style="color:var(--gold-soft)">four regions × twelve categories × every state</b> — so you can simply pick a door and walk in.</p>
+        <p>Every story is a real place or tradition with its own history, features and cultural importance, linked to its Wikipedia reference — and every page streams related videos straight from YouTube, so the heritage doesn't just sit on a page: it moves, it dances, it cooks, it sings.</p>
+        <p>This is a fan-made, educational curation. Images are stock and illustrative placeholders.</p>
+      </div>
+      <div class="about-facts reveal">
+        <div class="fact"><b>120</b><span>Curated stories · 10 per category</span></div>
+        <div class="fact"><b>4</b><span>Cultural regions</span></div>
+        <div class="fact"><b>12</b><span>Categories</span></div>
+        <div class="fact"><b>20+</b><span>States & UTs</span></div>
+        <div class="fact"><b>∞</b><span>YouTube videos</span></div>
+        <div class="fact"><b>1</b><span>Organised journey</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="overline center">Good to Know</span>
+      <h2>Frequently Asked Questions</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q">What exactly is VIBHOR? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>VIBHOR is an immersive, frontend-only heritage portal. It organises Indian culture into four regions and twelve categories, with 120 curated stories — each with history, key features, cultural importance, a photo gallery, a Wikipedia reference and a live stream of related YouTube videos.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Which regions and states are covered? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>The four cultural regions — North (UP, Rajasthan, Punjab, Himachal, Uttarakhand, Delhi, MP, J&K), South (Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana), East (West Bengal, Odisha, Bihar, Jharkhand, Assam, Chhattisgarh) and West (Maharashtra, Gujarat, Goa). The interactive map covers all 34 states and UTs, each coloured by its cultural region.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How does the YouTube section work? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>Every detail page calls a YouTube search API with the exact name of the cultural item (for example, “Brihadeeswarar Temple”). The JSON response is parsed for video IDs and thumbnails, and the results appear as a clickable gallery that plays inside a modal using standard YouTube embed iframes. If the service is unreachable, a graceful fallback with a direct YouTube link is shown.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is all the content factual? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>Names, places, histories and cultural facts are researched and linked to their Wikipedia articles, which you can open from every page. Short descriptions are written in a narrative style for a portal, so for academic use please follow the reference links.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I use the images and code? <span class="fq-icon">+</span></button>
+        <div class="faq-a"><p>The images are stock/illustrative placeholders sourced from open web searches, and the site is built with plain HTML, CSS and JavaScript — no frameworks. Feel free to study and adapt the code for your own learning projects; credit the original photographers and publishers where images are used.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="section" id="newsletter">
+  <div class="container">
+    <div class="newsletter reveal">
+      <div>
+        <span class="overline">Stay in the Loop</span>
+        <h3>Heritage in your inbox</h3>
+        <p>One dispatch a month — a festival worth catching, a craft worth meeting, a place worth visiting.</p>
+      </div>
+      <div style="flex:1;min-width:280px;max-width:480px">
+        <form class="nl-form" data-newsletter>
+          <input type="email" required placeholder="your@email.com" aria-label="Email address">
+          <button class="btn btn-gold" type="submit">Subscribe</button>
+        </form>
+        <div class="nl-msg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-root"></div>
+
+<script src="js/data-core.js"></script>
+<script src="js/data-items-1.js"></script>
+<script src="js/data-items-2.js"></script>
+<script src="js/script.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

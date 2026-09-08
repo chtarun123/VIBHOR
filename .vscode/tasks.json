@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run VIBHOR portal (http.server :8000)",
+      "type": "shell",
+      "command": "python3 -m http.server 8000 --bind 0.0.0.0",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Syntax-check all JS",
+      "type": "shell",
+      "command": "node --check js/data-core.js && node --check js/data-items-1.js && node --check js/data-items-2.js && node --check js/script.js && node --check js/home.js && node --check js/region.js && node --check js/detail.js && node --check js/map.js && node --check js/india-map.js && echo 'All JS OK'",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
