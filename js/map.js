@@ -120,7 +120,7 @@
       const items = D.items.filter((i) => i.state === state);
       html = `
         <span class="sc-kicker">Selected State</span>
-        <h3>${esc(state)}</h3>
+        <h3><a class="sc-state-link" href="region.html?r=${rKey ? rKey : ""}&state=${encodeURIComponent(state)}" title="Open ${esc(state)} in the Explorer">${esc(state)}</a></h3>
         <p class="sc-region">${r ? `Part of <b>${esc(r.name)}</b> — ${esc(r.tagline)}` : "Explore this state through the regional collections."}</p>
         ${items.length ? `
           <p style="font-size:.78rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase">${items.length} curated ${items.length === 1 ? "story" : "stories"} in ${esc(state)}</p>
@@ -135,7 +135,28 @@
           <a class="btn btn-gold btn-sm" href="region.html${r ? "?r=" + r.key : ""}${items.length && items[0].state ? "&state=" + encodeURIComponent(state) : ""}">Explore ${esc(state)} in the Explorer</a>`
         : `
           <p style="font-size:.85rem;color:var(--muted);margin:1rem 0 1.2rem">No curated items for ${esc(state)} yet — but the wider region is rich in stories.</p>
-          ${r ? `<a class="btn btn-gold btn-sm" href="region.html?r=${r.key}">Explore ${esc(r.name)}</a>` : ""}`}`;
+          ${r ? `<a class="btn btn-gold btn-sm" href="region.html?r=${r.key}&state=${encodeURIComponent(state)}">See ${esc(state)} in the Explorer</a>` : ""}`}`;
+    } else if (isRegion && region && D.regions[region]) {
+      const r = D.regions[region];
+      const items = D.items.filter((i) => i.region === region);
+      const statesWithItems = r.states.filter((s) => D.items.some((i) => i.state === s));
+      html = `
+        <span class="sc-kicker">Region Selected</span>
+        <h3>${esc(r.name)}</h3>
+        <p class="sc-region">${esc(r.tagline)}</p>
+        <p style="font-size:.78rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.6rem">${items.length} curated stories · ${statesWithItems.length} states</p>
+        <div class="mini-items">
+          ${statesWithItems.slice(0, 5).map((s) => {
+            const first = D.items.find((i) => i.state === s);
+            const n = D.items.filter((i) => i.state === s).length;
+            return `<a class="mini-item" href="region.html?r=${region}&state=${encodeURIComponent(s)}">
+              <img src="${first.img}" alt="${esc(s)}">
+              <span style="flex:1"><b>${esc(s)}</b><span>${n} ${n === 1 ? "story" : "stories"} · ${esc(first.city)}</span></span>
+              <span style="color:var(--gold)">→</span>
+            </a>`;
+          }).join("")}
+        </div>
+        <a class="btn btn-gold btn-sm" style="margin-top:.8rem" href="region.html?r=${region}">Explore ${esc(r.name)} in the Explorer</a>`;
     } else {
       html = `
         <span class="sc-kicker">Welcome</span>

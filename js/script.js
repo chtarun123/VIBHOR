@@ -45,6 +45,8 @@
             ${link("index.html", "Home", "home")}
             ${link("region.html", "Explore Regions", "region")}
             ${link("map.html", "Heritage Map", "map")}
+            ${link("quiz.html", "Quiz", "quiz")}
+            ${link("passport.html", "Passport", "passport")}
             ${link("index.html#about", "About Us", "about")}
             <li class="nav-cta"><a class="btn btn-gold btn-sm" href="index.html#regions">Start Journey</a></li>
           </ul>
@@ -86,6 +88,8 @@
               <ul>
                 ${Object.values(D.regions).map((r) => `<li><a href="region.html?r=${r.key}">${r.name}</a></li>`).join("")}
                 <li><a href="map.html">Interactive Map</a></li>
+                <li><a href="quiz.html">Heritage Quiz 🎲</a></li>
+                <li><a href="passport.html">My Heritage Passport 📘</a></li>
                 <li><a href="index.html#about">About Us</a></li>
               </ul>
             </div>

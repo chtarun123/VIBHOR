@@ -4,7 +4,7 @@
 
 /* ---------------- EAST INDIA ---------------- */
 HERITAGE.items.push(
-H("odissi","Odissi","dances","east","Odisha","Bhubaneswar","images/pool/dances-2.jpg",
+H("odissi","Odissi","dances","east","Odisha","Bhubaneswar","images/pool/odissi.jpg",
 "Graceful temple dance with the tribhangi pose.",
 "Odissi is a classical dance of Odisha with roots in the temple art and stone carvings dating to the 2nd century BCE. It was revived in the 20th century after a period of decline.",
 ["Tribhangi (three-bend) posture","Storytelling through mudra","Damaru and pakhawaj accompaniment"],
@@ -19,14 +19,14 @@ H("chhau","Chhau","dances","east","Jharkhand","Seraikela","images/pool/chhau.png
 "https://en.wikipedia.org/wiki/Chhau"),
 
 
-H("bhatiyali","Bhatiyali","music","east","Bihar","Patna","images/pool/music-1.jpg",
+H("bhatiyali","Bhatiyali","music","east","Bihar","Patna","images/pool/bhatiyali.jpg",
 "Boatmen's songs of the Ganga — a meditation on the river.",
 "Bhatiyali is a musical tradition of the Ganga boatmen of Bihar and Uttar Pradesh, sung while rowing long distances. It is meditative music with devotional and longing themes.",
 ["Rowing rhythm","Devotional and river themes","Simple instrumentation"],
 "A unique river-borne musical tradition of the Ganga.",
 "https://en.wikipedia.org/wiki/Bhatiyali"),
 
-H("santali","Santali Music","music","east","Jharkhand","Ranchi","images/pool/music-5.jpg",
+H("santali","Santali Music","music","east","Jharkhand","Ranchi","images/pool/santali.jpg",
 "Folk songs and rhythms of the Santal community.",
 "Santali music is the folk music of the Santal people of Jharkhand, with songs for every occasion from birth to harvest. The songkhi drum and flute are its traditional instruments.",
 ["Songkhi (drum) and flute","Occasion-based songs","Santal tribal themes"],
@@ -79,7 +79,7 @@ H("jagannath","Jagannath Temple","temples","east","Odisha","Puri","images/pool/j
 "One of the most important pilgrimage centres of Hinduism.",
 "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"),
 
-H("konark","Konark Sun Temple","temples","east","Odisha","Konark","images/pool/temples-1.jpg",
+H("konark","Konark Sun Temple","temples","east","Odisha","Konark","images/pool/konark.jpg",
 "Stone chariot of the Sun god with 24 wheels.",
 "The Konark Sun Temple was built in the 13th century by King Narasimhadeva I of the Eastern Ganga dynasty. It is a stone chariot with 24 wheels and is a UNESCO World Heritage Site.",
 ["24 stone wheels acting as dials","Dancer and musician sculptures","UNESCO World Heritage Site"],
@@ -95,7 +95,7 @@ H("nalanda","Nalanda Mahavihara","historical","east","Bihar","Nalanda","images/p
 "A symbol of ancient learning in Asia.",
 "https://en.wikipedia.org/wiki/Nalanda_Mahavihara"),
 
-H("santiniketan","Santiniketan","historical","east","West Bengal","Birbhum","images/pool/historical-3.jpg",
+H("santiniketan","Santiniketan","historical","east","West Bengal","Birbhum","images/pool/santiniketan.jpg",
 "Rabindranath Tagore's university-in-the-trees.",
 "Santiniketan was founded by Rabindranath Tagore as a school and later became Visva-Bharati University. It is famous for its open-air classrooms and cultural movement.",
 ["Open-air classrooms","Visva-Bharati University","Tagore's ashram and museum"],
@@ -105,29 +105,29 @@ H("santiniketan","Santiniketan","historical","east","West Bengal","Birbhum","ima
 
 
 
-H("bishnupur","Bishnupur Terracotta Temples","architecture","east","West Bengal","Bankura","images/pool/architecture-4.png",
+H("bishnupur","Bishnupur Terracotta Temples","architecture","east","West Bengal","Bankura","images/pool/bishnupur-terracotta.jpg",
 "Cluster of terracotta temples — a masterpiece of Bengal's temple art.",
 "Bishnupur in West Bengal's Bankura district is famous for its terracotta temples built by the Malla kings in the 16th–17th centuries. The terracotta panels depict scenes from the Ramayana and Krishna's life.",
 ["Terracotta narrative panels","Malla dynasty architecture","Rudranath, Jagannath and other temples"],
 "A UNESCO-listed cluster of Bengal's terracotta temple art.",
 "https://en.wikipedia.org/wiki/Bishnupur"),
 
-H("shat-gumbaz","Shat Gumbaz","architecture","east","Bihar","Patna","images/pool/historical-2.jpg",
-"Sufi dargah of 60 domes — a jewel of Sultanate architecture.",
-"Shat Gumbaz, 'the sixty domes', is a Sufi dargah in Patna built in the 15th century by the Sharqi sultans. It is a rare example of Sultanate-era architecture in the Gangetic plain.",
-["60 dome vaults","Sultanate-style architecture","Sufi dargah complex"],
-"A rare monument of Sultanate architecture in Bihar.",
-"https://en.wikipedia.org/wiki/Shat_Gumbaz"),
+H("maner-dargah","Bari Dargah, Maner","architecture","east","Bihar","Maner","images/pool/maner-dargah.jpg",
+"Mughal-era dargah complex of Maner — Bihar's great Sufi pilgrimage site.",
+"Bari Dargah was built in 1616 by Ibrahim Khan Kakar, the Mughal governor of Bihar, over the tomb of the saint Shah Daulat, and he raised a mosque nearby in 1619. Maner, on the Ganga's edge 24 km west of Patna, has been called the 'Land of Sufi Saints' ever since.",
+["Mughal-era tomb and mosque complex","Iconic terracotta-domed pavilion","Major Sufi pilgrimage centre"],
+"A crown-jewel of Mughal Sufi architecture in Bihar.",
+"https://en.wikipedia.org/wiki/Maner,_Bihar"),
 
 
-H("fort-william","Fort William","forts","east","West Bengal","Kolkata","images/pool/forts-2.jpg",
+H("fort-william","Fort William","forts","east","West Bengal","Kolkata","images/pool/fort-william.webp",
 "Great British fort — seat of the East India Company.",
 "Fort William was built in 1756 at Kolkata after the Black Hole of Calcutta. It was the headquarters of the East India Company and the seat of the British administration in Bengal.",
 ["Bastions and ramparts","Company headquarters","Now a military base and historic site"],
 "A monument of colonial India and a living military base.",
 "https://en.wikipedia.org/wiki/Fort_William"),
 
-H("rajbari","Rajbari","forts","east","West Bengal","Kolkata","images/pool/architecture-3.jpg",
+H("rajbari","Rajbari","forts","east","West Bengal","Kolkata","images/pool/rajbari.jpg",
 "18th-century palace of the 'Raja' of Natore.",
 "Rajbari is an 18th-century palace in northern Kolkata, built by Raja Krishnachandra of Natore. It is one of the best-preserved examples of Bangla haveli architecture.",
 ["Basement and main floor","Bangla-Mughal fusion","Cricket ground and garden"],
@@ -171,14 +171,14 @@ H("muga","Muga Silk","textiles","east","Assam","Kamrup","images/pool/muga.jpg",
 "A UNESCO-recognised craft and GI-protected product of Assam.",
 "https://en.wikipedia.org/wiki/Muga_silk"),
 
-H("victoria-memorial","Victoria Memorial","monuments","east","West Bengal","Kolkata","images/pool/monuments-2.jpg",
+H("victoria-memorial","Victoria Memorial","monuments","east","West Bengal","Kolkata","images/pool/victoria-memorial.jpg",
 "White marble monument of the Raj era.",
 "The Victoria Memorial was completed in 1921 in memory of Queen Victoria, designed by William Emerson. It is built of white Italian marble and is now a museum and the icon of Kolkata.",
 ["White marble and domes","Gardens and reflecting pool","Museum of colonial history"],
 "The most iconic landmark of Kolkata.",
 "https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"),
 
-H("howrah-bridge","Howrah Bridge","monuments","east","West Bengal","Kolkata","images/pool/monuments-1.jpg",
+H("howrah-bridge","Howrah Bridge","monuments","east","West Bengal","Kolkata","images/pool/howrah-bridge.jpg",
 "Cantilever bridge carrying lakhs of people a day.",
 "The Howrah Bridge was built in 1942 connecting Howrah and Kolkata across the Hooghly. It is one of the busiest cantilever bridges in the world and a symbol of the city.",
 ["Cantilever steel design","Rivet construction, no bolts","Iconic city silhouette"],
@@ -217,14 +217,14 @@ H("dandiya","Dandiya Raas","dances","west","Gujarat","Surat","images/pool/dandiy
 "https://en.wikipedia.org/wiki/Dandiya"),
 
 
-H("dhamal","Dhamal","music","west","Gujarat","Rajkot","images/pool/music-5.jpg",
+H("dhamal","Dhamal","music","west","Gujarat","Rajkot","images/pool/dhamal.jpg",
 "Devotional circle music of Sufi tradition with frame drums.",
 "Dhamal is a devotional music and dance tradition of Gujarat, in which performers circle with frame drums (dafli) singing Sufi poetry. It is associated with the Sufi shrines of Gujarat.",
 ["Circle formation with dafli","Sufi devotional poetry","Rhythmic clapping and footwork"],
 "A living Sufi tradition of Gujarat's dargahs.",
 "https://en.wikipedia.org/wiki/Dhamal"),
 
-H("abhang","Abhang","music","west","Maharashtra","Washim","images/pool/music-3.jpg",
+H("abhang","Abhang","music","west","Maharashtra","Washim","images/pool/abhang.webp",
 "Devotional poetry of the Varkari saints, sung in the Warkari tradition.",
 "Abhang is the devotional poetry of the Varkari saints of Maharashtra — Namdev, Tukaram, Eknath — sung in the Warkari tradition. It is a bridge between bhakti and Sufi music.",
 ["Varkari saint poetry","Sung with ektara and dholki","Warkari jhula and abhang traditions"],
@@ -271,7 +271,7 @@ H("somnath","Somnath Temple","temples","west","Gujarat","Veraval","images/pool/s
 "A symbol of India's enduring spiritual heritage.",
 "https://en.wikipedia.org/wiki/Somnath_Temple"),
 
-H("siddhivinayak","Siddhivinayak Temple","temples","west","Maharashtra","Mumbai","images/pool/temples-5.jpg",
+H("siddhivinayak","Siddhivinayak Temple","temples","west","Maharashtra","Mumbai","images/pool/siddhivinayak.jpg",
 "Mumbai's most famous Ganpati temple.",
 "The Siddhivinayak Temple in Mumbai is dedicated to Lord Ganesha and is one of the richest and most visited temples of the city. The idol is believed to be from the 19th century.",
 ["Ganesha idol in the sanctum","Daily aarti and darshan","Mumbai's most visited temple"],
@@ -279,7 +279,7 @@ H("siddhivinayak","Siddhivinayak Temple","temples","west","Maharashtra","Mumbai"
 "https://en.wikipedia.org/wiki/Siddhivinayak_Temple"),
 
 
-H("ellora","Ellora Caves","historical","west","Maharashtra","Aurangabad","images/pool/historical-4.jpg",
+H("ellora","Ellora Caves","historical","west","Maharashtra","Aurangabad","images/pool/ellora.webp",
 "34 rock-cut caves of Buddhist, Hindu and Jain art.",
 "The Ellora Caves are a UNESCO World Heritage Site of 34 rock-cut caves in Maharashtra. The caves span Buddhist, Hindu and Jain traditions, with the Kailasa temple as their crown.",
 ["34 rock-cut caves","Kailasa temple (Cave 16)","Buddhist, Hindu and Jain art"],
@@ -287,7 +287,7 @@ H("ellora","Ellora Caves","historical","west","Maharashtra","Aurangabad","images
 "https://en.wikipedia.org/wiki/Ellora_Caves"),
 
 
-H("dwarka","Dwarka","historical","west","Gujarat","Devbhoomi Dwarka","images/pool/temples-1.jpg",
+H("dwarka","Dwarka","historical","west","Gujarat","Devbhoomi Dwarka","images/pool/dwarka.webp",
 "Legendary city of Krishna, on the Saurashtra coast.",
 "Dwarka is the legendary city of Krishna, one of the four Dhamas of Hinduism. The Rukmini temple and the Dwarkadhish temple are the major shrines of the town.",
 ["Rukmini and Dwarkadhish temples","Coastal Saurashtra location","One of the four Dhamas"],
@@ -309,21 +309,21 @@ H("goan-colonial","Goan Colonial Architecture","architecture","west","Goa","Old 
 "The architectural soul of Goa.",
 "https://en.wikipedia.org/wiki/Old_Goa"),
 
-H("wada","Wada Havelis of Maharashtra","architecture","west","Maharashtra","Pune","images/pool/architecture-2.jpg",
+H("wada","Wada Havelis of Maharashtra","architecture","west","Maharashtra","Pune","images/pool/wada-house.jpg",
 "Great houses of the Peshwa era with courtyards and chhajjas.",
 "The wada is the traditional great house of Maharashtra, built in the Peshwa era. It features a central courtyard, chhajjas (overhanging eaves) and carved wooden doors.",
 ["Central courtyard (aangan)","Chhajjas and carved wood","Peshwa-era construction"],
 "The domestic architecture of the Maratha era.",
 "https://en.wikipedia.org/wiki/Wada_(house)"),
 
-H("raigad","Raigad Fort","forts","west","Maharashtra","Raigad","images/pool/forts-3.jpg",
+H("raigad","Raigad Fort","forts","west","Maharashtra","Raigad","images/pool/raigad-fort.jpg",
 "Chhatrapati Shivaji's capital in the Sahyadri hills.",
 "Raigad Fort was the capital of Chhatrapati Shivaji in the Sahyadri hills. It is the site of his samadhi (memorial) and is a symbol of the Maratha empire.",
 ["Hilltop ramparts and gates","Samadhi of Chhatrapati Shivaji","Sahyadri fortress"],
 "The spiritual capital of the Maratha empire.",
 "https://en.wikipedia.org/wiki/Raigad_Fort"),
 
-H("aguada","Aguada Fort","forts","west","Goa","Panaji","images/pool/forts-4.jpg",
+H("aguada","Aguada Fort","forts","west","Goa","Panaji","images/pool/aguada-fort.jpg",
 "Portuguese coastal fort with the lighthouse of Aguada.",
 "The Aguada Fort is a Portuguese coastal fort in Goa, built in the 17th century. It houses the lighthouse of Aguada, one of the oldest lighthouses in the world.",
 ["Portuguese coastal fort","Lighthouse of Aguada","Seafront location"],
@@ -376,12 +376,12 @@ H("statue-unity","Statue of Unity","monuments","west","Gujarat","Narmada","image
 "A landmark of modern India.",
 "https://en.wikipedia.org/wiki/Statue_of_Unity"),
 
-H("sasan","Sasan Mirror Garden","gardens","west","Maharashtra","Mumbai","images/pool/gardens-3.jpg",
-"Marine Garden's mirror park on the Mumbai waterfront.",
-"The Sasan Mirror Garden is a park on the Mumbai waterfront, near the Marine Drive. It is a green space in the heart of the city, popular with locals and visitors.",
-["Waterfront location","Green space in the city","Popular with locals and visitors"],
-"A green corner of the Mumbai waterfront.",
-"https://en.wikipedia.org/wiki/Marine_Drive"),
+H("sasan","Sasan Mirror Garden","gardens","west","Goa","Panaji","images/pool/sasan-garden.jpg",
+"Mirror pavilions and fountains on the Mandovi riverfront — Goa's most photogenic garden.",
+"The Sasan Mirror Garden opened in 2011 along the Mandovi riverfront in Panaji. Its glass pavilions, fountains and the famous mermaid sculpture have made it a favourite of visitors and Goans alike.",
+["Mirror pavilions and fountains","Iconic mermaid sculpture","Mandovi riverfront setting"],
+"A modern landmark of Goa's public garden culture.",
+"https://en.wikipedia.org/wiki/Panjim"),
 
 H("shivaji-park","Shivaji Park","gardens","west","Maharashtra","Mumbai","images/pool/shivaji-park.jpg",
 "Century-old urban park, zoo and botanical garden in the heart of Dadar.",

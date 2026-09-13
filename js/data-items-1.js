@@ -4,14 +4,14 @@
 
 /* ---------------- NORTH INDIA ---------------- */
 HERITAGE.items.push(
-H("kathak","Kathak","dances","north","Uttar Pradesh","Lucknow","images/pool/dances-1.jpg",
+H("kathak","Kathak","dances","north","Uttar Pradesh","Lucknow","images/pool/kathak.jpg",
 "The graceful classical dance of rhythm and storytelling, born in the courts of Uttar Pradesh.",
 "Kathak evolved over centuries in the courts of Uttar Pradesh, where Sufi and Bhakti traditions met. The Lucknow gharana later refined its rapid footwork and expressive abhinaya into the form known today.",
 ["Rapid circular footwork (tatkar)","Bells (ghungroo) on the ankles","Storytelling through mudra and gait"],
 "Recognised among India's eight classical dance forms, Kathak is a living bridge between the country's spiritual and Sufi heritage.",
 "https://en.wikipedia.org/wiki/Kathak"),
 
-H("bhangra","Bhangra","dances","north","Punjab","Amritsar","images/pool/dances-2.jpg",
+H("bhangra","Bhangra","dances","north","Punjab","Amritsar","images/pool/bhangra.jpg",
 "High-energy harvest dance of Punjab, whipped to the thunder of the dhol.",
 "Bhangra began as a folk celebration of the wheat harvest, performed to the thunder of the dhol. Punjabi diaspora carried it to stages across the world, where it is now a global spectacle.",
 ["Dhol-driven 4/4 rhythm","Twirling and shoulder movements","Bright phulkari and turbans"],
@@ -19,7 +19,7 @@ H("bhangra","Bhangra","dances","north","Punjab","Amritsar","images/pool/dances-2
 "https://en.wikipedia.org/wiki/Bhangra"),
 
 
-H("ghoomar","Ghoomar","dances","north","Rajasthan","Jaipur","images/pool/dances-4.jpg",
+H("ghoomar","Ghoomar","dances","north","Rajasthan","Jaipur","images/pool/ghoomar.jpg",
 "Rajasthan's royal circular dance, spinning in layered ghagras and silver jhumar.",
 "Ghoomar flourished in the courts of Rajputana, danced by queens and court ladies of Mewar. It remains the signature dance of Rajasthan's weddings and celebrations.",
 ["Rotating circular formation","Flowing ghagra with mirror-worked jhumar","Gruv (swaying) footwork"],
@@ -33,14 +33,14 @@ H("hindustani","Hindustani Classical Music","music","north","Uttar Pradesh","Var
 "Along with Carnatic music, it is one of the two great pillars of Indian classical music.",
 "https://en.wikipedia.org/wiki/Hindustani_classical_music"),
 
-H("sufi","Sufi Music","music","north","Delhi","Delhi","images/pool/music-3.jpg",
+H("sufi","Sufi Music","music","north","Delhi","Delhi","images/pool/sufi-qawwali.jpg",
 "Devotional melody where dhol and qawwali echo through the dargahs.",
 "Sufi music travelled with the Sufi saints along trade routes, blending Persian and Hindustani forms. The dargahs of Ajmer and Delhi became its great centres of devotion.",
 ["Qawwali call-and-response","Dhamal circle dancing","Devotional poetry in Hindi and Persian"],
 "Sufi music remains a bridge between faiths in the cultural landscape of North India.",
 "https://en.wikipedia.org/wiki/Sufi_music"),
 
-H("dhol","Dhol Beats of Punjab","music","north","Punjab","Jalandhar","images/pool/music-2.jpg",
+H("dhol","Dhol Beats of Punjab","music","north","Punjab","Jalandhar","images/pool/dhol.jpg",
 "The twin-headed drum that drives every folk celebration in Punjab.",
 "The dhol is the heart of Punjabi folk music, played in pairs at weddings, fairs and fests. Master dholis still train in the traditional gur-shishya parampara.",
 ["Twin-headed barrel drum","Baithi and khori strokes","Paired lead and follow drums"],
@@ -93,7 +93,7 @@ H("golden-temple","Golden Temple","temples","north","Punjab","Amritsar","images/
 "One of the most visited religious sites in the world and a symbol of Sikh seva.",
 "https://en.wikipedia.org/wiki/Golden_Temple"),
 
-H("kashi-vishwanath","Kashi Vishwanath Temple","temples","north","Uttar Pradesh","Varanasi","images/pool/temples-3.jpg",
+H("kashi-vishwanath","Kashi Vishwanath Temple","temples","north","Uttar Pradesh","Varanasi","images/pool/kashi-vishwanath.jpg",
 "Great Shiva temple of the city on the Ganga, heart of aarti and aarti-lit ghats.",
 "The Kashi Vishwanath temple has been destroyed and rebuilt many times; the current structure dates from the 18th century. Varanasi itself is one of the oldest continuously inhabited cities in the world.",
 ["Gold-plated spire and domes","Evening Ganga aarti on the ghats","Durgah and Panch Kosi corridors"],
@@ -101,14 +101,14 @@ H("kashi-vishwanath","Kashi Vishwanath Temple","temples","north","Uttar Pradesh"
 "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"),
 
 
-H("khajuraho","Khajuraho Temples","temples","north","Madhya Pradesh","Chhatarpur","images/pool/temples-5.jpg",
+H("khajuraho","Khajuraho Temples","temples","north","Madhya Pradesh","Chhatarpur","images/pool/khajuraho.jpg",
 "Eleven surviving temples famed for exquisite stone carving.",
 "The Khajuraho temples were built in the 9th–11th centuries by the Chandela dynasty, representing both Nagara and Vesara styles. Their carved façades earned them UNESCO World Heritage status.",
 ["Nagara shikharas and mandapa complexes","Narrative carvings on nearly every surface","East, South and West temple groups"],
 "A UNESCO-listed masterpiece of Indian temple sculpture.",
 "https://en.wikipedia.org/wiki/Khajuraho"),
 
-H("fatehpur-sikri","Fatehpur Sikri","historical","north","Uttar Pradesh","Agra","images/pool/historical-2.jpg",
+H("fatehpur-sikri","Fatehpur Sikri","historical","north","Uttar Pradesh","Agra","images/pool/fatehpur-sikri.jpg",
 "Akbar's ghost city — a complete Mughal capital in red sandstone.",
 "Emperor Akbar founded Fatehpur Sikri in 1571 as his imperial capital after the conquest of Chitor. Within twenty years the city was abandoned, likely due to water scarcity.",
 ["Buland Darwaza — 54 m high gateway","Panch Mahal, five-storey palace","Ibadat Khana, hall of religious discussion"],
@@ -117,7 +117,7 @@ H("fatehpur-sikri","Fatehpur Sikri","historical","north","Uttar Pradesh","Agra",
 
 
 
-H("jaisalmer","Jaisalmer","historical","north","Rajasthan","Jaisalmer","images/pool/forts-3.jpg",
+H("jaisalmer","Jaisalmer","historical","north","Rajasthan","Jaisalmer","images/pool/jaisalmer.jpg",
 "The Golden City — a fort-town rising from the Thar desert.",
 "Jaisalmer was founded in 1156 by Rawal Jaisal, and its fort-city has never been conquered. The entire old town is built of golden sandstone, giving the city its nickname.",
 ["Living fort with 900+ havelis","Naragarh and Patwon-ki-Haveli","Sambhar Lake on the horizon"],
@@ -138,7 +138,7 @@ H("chand-baori","Chand Baori","architecture","north","Rajasthan","Ranakpur","ima
 "A masterpiece of hydraulic engineering and an icon of Rajput architecture.",
 "https://en.wikipedia.org/wiki/Chand_Baori"),
 
-H("hawa-mahal","Hawa Mahal","architecture","north","Rajasthan","Jaipur","images/pool/architecture-1.jpg",
+H("hawa-mahal","Hawa Mahal","architecture","north","Rajasthan","Jaipur","images/pool/hawa-mahal.jpg",
 "Five-storey pink honeycomb of windows — the 'Palace of Winds'.",
 "Hawa Mahal was built in 1799 by Maharaja Sawai Pratap Singh as an extension to the City Palace. Its lattice windows let cool air through and allowed royal women to watch street life unseen.",
 ["953 tiny lattice windows","Honeycomb sandstone façade","Five storeys in a fan shape"],
@@ -146,14 +146,14 @@ H("hawa-mahal","Hawa Mahal","architecture","north","Rajasthan","Jaipur","images/
 "https://en.wikipedia.org/wiki/Hawa_Mahal"),
 
 
-H("amer","Amer Fort","forts","north","Rajasthan","Jaipur","images/pool/forts-1.jpg",
+H("amer","Amer Fort","forts","north","Rajasthan","Jaipur","images/pool/amer-fort.jpg",
 "Sandstone-and-marble fort crowning a hill above Maota Lake.",
 "Built in 1727 by Maharaja Sawai Jai Singh II, who renamed the city Jaipur, Amer Fort blends Rajput and Mughal styles with courtyards, palaces and gates of intricate detail.",
 ["Surya Chokhi and Piplani palace","Carved Jawan Ki Chokhi","Elephant rides up to the fort"],
 "A UNESCO-listed monument and the most visited fort in Rajasthan.",
 "https://en.wikipedia.org/wiki/Amer_Fort"),
 
-H("agra-fort","Agra Fort","forts","north","Uttar Pradesh","Agra","images/pool/forts-2.jpg",
+H("agra-fort","Agra Fort","forts","north","Uttar Pradesh","Agra","images/pool/agra-fort.jpg",
 "Red sandstone fort that was the seat of Mughal power for a century.",
 "Agra Fort was built by Akbar in 1565 and later embellished by Shah Jahan. It is the fort from which the imprisoned Shah Jahan watched the Taj Mahal being built.",
 ["Red sandstone walls, 4 km around","Mumtaz Mahal and Diwan-i-Khas","Musamman Burj tower"],
@@ -227,21 +227,21 @@ H("india-gate","India Gate","monuments","north","Delhi","Delhi","images/pool/ind
 "The ceremonial heart of Delhi and a monument to national sacrifice.",
 "https://en.wikipedia.org/wiki/India_Gate"),
 
-H("sanchi","Sanchi Stupa","monuments","north","Madhya Pradesh","Raisen","images/pool/historical-1.jpg",
+H("sanchi","Sanchi Stupa","monuments","north","Madhya Pradesh","Raisen","images/pool/sanchi-stupa.jpg",
 "Ashoka's great stupa — the oldest Buddhist monument in India.",
 "The Great Stupa at Sanchi was commissioned by Emperor Ashoka in the 3rd century BCE. Its four carved toranas are masterpieces of early Buddhist narrative art.",
 ["Hemispherical dome, 36.5 m across","Four toranas with narrative reliefs","Rock-cut caves and monasteries"],
 "A UNESCO World Heritage Site and symbol of the early spread of Buddhism.",
 "https://en.wikipedia.org/wiki/Sanchi"),
 
-H("shalimar","Shalimar Bagh","gardens","north","Jammu & Kashmir","Srinagar","images/pool/gardens-1.jpg",
+H("shalimar","Shalimar Bagh","gardens","north","Jammu & Kashmir","Srinagar","images/pool/shalimar-gardens.jpg",
 "Mughal paradise garden in three terraces above Dal Lake.",
 "Shalimar Bagh was built in 1619 by Mughal emperor Jahangir in memory of his wife Nur Jahan. Its three terraces cascade with fountains, and the name means 'palace of love'.",
 ["Three terraces with 400 fountains","Charbagh quadrants","Views over Dal Lake"],
 "The most famous of Kashmir's Mughal gardens.",
 "https://en.wikipedia.org/wiki/Shalimar_Bagh"),
 
-H("nishat","Nishat Bagh","gardens","north","Jammu & Kashmir","Srinagar","images/pool/gardens-2.jpg",
+H("nishat","Nishat Bagh","gardens","north","Jammu & Kashmir","Srinagar","images/pool/nishat-gardens.jpg",
 "Twelve terraces of chinar trees cascading to the lake.",
 "Nishat Bagh was built in 1636 by Asif Khan, brother of Empress Nur Jahan. Its twelve terraces step down the Zabarwan hills towards Dal Lake, lined with chinar trees.",
 ["12 terraces of chinar trees","Cascading water channels","Sunset views over Dal Lake"],
@@ -258,7 +258,7 @@ H("dal-lake","Dal Lake","gardens","north","Jammu & Kashmir","Srinagar","images/p
 
 /* ---------------- SOUTH INDIA ---------------- */
 HERITAGE.items.push(
-H("bharatanatyam","Bharatanatyam","dances","south","Tamil Nadu","Chennai","images/pool/dances-5.jpg",
+H("bharatanatyam","Bharatanatyam","dances","south","Tamil Nadu","Chennai","images/pool/bharatanatyam.jpg",
 "Sculptural temple dance — a 2,000-year-old classical form.",
 "Bharatanatyam, earlier known as Sadir, was performed in Tamil temples by devadasis. It was revived in the 20th century by Rukmini Devi Arundale and is now danced worldwide.",
 ["Tandava and shuddha tandava footwork","Storytelling through abhinaya","Nritta, nritya and natya elements"],
@@ -272,7 +272,7 @@ H("kathakali","Kathakali","dances","south","Kerala","Thrissur","images/pool/kath
 "A UNESCO-recognised classical dance and the pride of Kerala.",
 "https://en.wikipedia.org/wiki/Kathakali"),
 
-H("kuchipudi","Kuchipudi","dances","south","Andhra Pradesh","East Godavari","images/pool/dances-1.jpg",
+H("kuchipudi","Kuchipudi","dances","south","Andhra Pradesh","East Godavari","images/pool/kuchipudi.jpg",
 "Temple dance-drama fusing theatre and music, born in an Andhra village.",
 "Kuchipudi originated in the 17th century in the village of Kuchipudi. Its first full-length dance-drama, the story of Andhala Bhikshuki, was staged there by Siddhendra Yathi.",
 ["Dance-drama format","Melle (dance-duel) sequences","Carnatic musical base"],
@@ -287,14 +287,14 @@ H("carnatic","Carnatic Music","music","south","Tamil Nadu","Madurai","images/poo
 "One of the two pillars of Indian classical music, with the world's largest annual classical music season.",
 "https://en.wikipedia.org/wiki/Carnatic_music"),
 
-H("chenda-melam","Chenda Melam","music","south","Kerala","Kozhikode","images/pool/music-4.jpg",
+H("chenda-melam","Chenda Melam","music","south","Kerala","Kozhikode","images/pool/chenda-melam.webp",
 "Thunder of chenda drums that wakes temple gopurams.",
 "Chenda Melam is the percussion tradition of Kerala temples, performed at the foot of gopurams in group ensembles. Each melam has its own rhythmic cycles and repertoire.",
 ["Multiple chenda drums and maddalam","Vatta and other melams","Accompanies Theyyam and processions"],
 "The heartbeat of Kerala's temple festivals.",
 "https://en.wikipedia.org/wiki/Chenda_Melam"),
 
-H("nadaswaram","Nadaswaram","music","south","Tamil Nadu","Thanjavur","images/pool/music-1.jpg",
+H("nadaswaram","Nadaswaram","music","south","Tamil Nadu","Thanjavur","images/pool/nadaswaram.jpg",
 "Double-reed temple pipe that leads every festival procession.",
 "The nadaswaram is the lead instrument of Tamil temple festivals, played with the thavil drum. It is said that the deity himself is woken by its sound.",
 ["Double-reed pipe with five valves","Played with the thavil drum","Temple and festival repertoire"],
@@ -361,28 +361,28 @@ H("meenakshi","Meenakshi Amman Temple","temples","south","Tamil Nadu","Madurai",
 
 
 
-H("tirumala","Tirumala Venkateswara Temple","temples","south","Andhra Pradesh","Chittoor","images/pool/temples-4.jpg",
+H("tirumala","Tirumala Venkateswara Temple","temples","south","Andhra Pradesh","Chittoor","images/pool/tirumala.jpg",
 "One of the richest and most visited temples on earth.",
 "The Tirumala temple is dedicated to Venkateswara (Lord Balaji) on the seven hills of Tirupati. It is among the wealthiest temples in the world, serving lakhs of laddu prasadams every day.",
 ["Seven sacred hills (Srivari Hills)","Vaikunta Ekadasi darshan","Daily laddu prasadam"],
 "One of the most visited religious sites in the world.",
 "https://en.wikipedia.org/wiki/Tirumala_Venkateswara_Temple"),
 
-H("hampi","Hampi","historical","south","Karnataka","Ballari","images/pool/historical-1.jpg",
+H("hampi","Hampi","historical","south","Karnataka","Ballari","images/pool/hampi.jpg",
 "Ruined capital of Vijayanagara — boulders, gopurams and empire ghosts.",
 "Hampi was the capital of the Vijayanagara Empire from 1336 to 1646. Its ruins — temples, bazaars and the Vittala chariot — preserve the memory of one of medieval India's greatest empires.",
 ["Vittala temple and stone chariot","Matanga hill and Lotus Mahal","Boulder-strewn landscape"],
 "A UNESCO World Heritage Site and one of the world's greatest archaeological sites.",
 "https://en.wikipedia.org/wiki/Hampi"),
 
-H("mamallapuram","Mahabalipuram","historical","south","Tamil Nadu","Kancheepuram","images/pool/historical-4.jpg",
+H("mamallapuram","Mahabalipuram","historical","south","Tamil Nadu","Kancheepuram","images/pool/mamallapuram.jpg",
 "Shore temples and bas-relief carvings on the Coromandel coast.",
 "Mahabalipuram was the coastal capital of the Pallava kings in the 7th–8th centuries. Its Shore Temple and the bas-relief of the Descent of the Ganges are masterpieces of Dravidian art.",
 ["Shore Temple and Varadrajeshwara Temple","Descent of the Ganges bas-relief","Monolithic rathas"],
 "A UNESCO World Heritage Site and the finest Pallava rock art.",
 "https://en.wikipedia.org/wiki/Mahabalipuram"),
 
-H("srirangapatna","Srirangapatna","historical","south","Karnataka","Mysuru","images/pool/historical-2.jpg",
+H("srirangapatna","Srirangapatna","historical","south","Karnataka","Mysuru","images/pool/srirangapatna.jpg",
 "Island town of Tipu Sultan and the great Ranganathaswamy temple.",
 "Srirangapatna was the capital of the Vijayanagara Empire and later the seat of Tipu Sultan. Its Ranganathaswamy temple is one of the great shrines of Shri Ranga.",
 ["Ranganathaswamy temple","Tipu Sultan's palace and mosque","Island geography on the Kaveri"],
@@ -390,21 +390,21 @@ H("srirangapatna","Srirangapatna","historical","south","Karnataka","Mysuru","ima
 "https://en.wikipedia.org/wiki/Srirangapatna"),
 
 
-H("chettinad","Chettinad Mansions","architecture","south","Tamil Nadu","Chettinad","images/pool/architecture-2.jpg",
+H("chettinad","Chettinad Mansions","architecture","south","Tamil Nadu","Chettinad","images/pool/chettinad-house.jpg",
 "Colonial-era merchant mansions of the Tamil business community.",
 "The Nattukottai Chettiar community built grand mansions in the late 19th and early 20th centuries, blending Dravidian and Western architecture. Towns like Karaikudi and Mayiladuthurai are full of such mansions.",
 ["Carved teak doors and jharokhas","Courtyards and European balconies","Mural and mosaic work"],
 "A living museum of Tamil merchant culture.",
 "https://en.wikipedia.org/wiki/Chettinad"),
 
-H("nalukettu","Nalukettu Houses","architecture","south","Kerala","Thiruvananthapuram","images/pool/architecture-4.png",
+H("nalukettu","Nalukettu Houses","architecture","south","Kerala","Thiruvananthapuram","images/pool/nalukettu.jpg",
 "The traditional Kerala home — sloping tiles and a central courtyard.",
 "The nalukettu is the traditional residential form of Kerala, with rooms arranged around a central courtyard. Built with teak, laterite and tile, it is designed for monsoon living.",
 ["Central courtyard (neram)","Sloping tile roofs","Teak wood and laterite construction"],
 "The symbol of Kerala's vernacular architecture and monsoon design.",
 "https://en.wikipedia.org/wiki/Nalukettu"),
 
-H("vijayanagara-arch","Vijayanagara Architecture","architecture","south","Karnataka","Ballari","images/pool/temples-7.jpg",
+H("vijayanagara-arch","Vijayanagara Architecture","architecture","south","Karnataka","Ballari","images/pool/vijayanagara-architecture.jpg",
 "The fusion of Dravidian and Hoysala styles that defined an empire.",
 "Vijayanagara architecture is a fusion of the Dravidian temple style with Hoysala ornamental vocabulary, developed under the empire. Its pillars, gopurams and rathas are seen across South India.",
 ["Ornate gopurams and mantapas","Girihanka pillars","Rathas and water tanks"],
@@ -418,14 +418,14 @@ H("mysore-palace","Mysore Palace","forts","south","Karnataka","Mysuru","images/p
 "The icon of the Mysore Dasara festival.",
 "https://en.wikipedia.org/wiki/Mysore_Palace"),
 
-H("trichy-fort","Rockfort Trichy","forts","south","Tamil Nadu","Tiruchirappalli","images/pool/forts-2.jpg",
+H("trichy-fort","Rockfort Trichy","forts","south","Tamil Nadu","Tiruchirappalli","images/pool/trichy-fort.jpg",
 "Hilltop fort with three temples on an 83-metre rock.",
 "The Rockfort of Trichy was built on an 83-metre rock crowned with three temples — Uthirakosamangai, Sri Chellappaswami and Kalahasti. The fort changed hands between Pandyas, Cholas and Nayaks.",
 ["Hilltop ramparts and bastions","Three temples on the rock","Chola and Nayak structures"],
 "A strategic fort of South Indian history.",
 "https://en.wikipedia.org/wiki/Trichy_Rock_Fort"),
 
-H("vellore-fort","Vellore Fort","forts","south","Tamil Nadu","Vellore","images/pool/forts-4.jpg",
+H("vellore-fort","Vellore Fort","forts","south","Tamil Nadu","Vellore","images/pool/vellore-fort.jpg",
 "16th-century fort with Portuguese-built bastions.",
 "Vellore Fort was built in the 16th century by the Aravidu dynasty and later modified by the Portuguese. The Vellore Rebellion of 1806 — India's first revolt against the British — took place here.",
 ["Moat and ramparts","Portuguese bastion and gateways","Site of the 1806 rebellion"],
@@ -490,7 +490,7 @@ H("gol-gumbaz","Gol Gumbaz","monuments","south","Karnataka","Kalaburagi","images
 "A masterpiece of Deccani architecture.",
 "https://en.wikipedia.org/wiki/Gol_Gumbaz"),
 
-H("kodaikanal","Kodaikanal Palace","gardens","south","Tamil Nadu","Dindigul","images/pool/gardens-3.jpg",
+H("kodaikanal","Kodaikanal Palace","gardens","south","Tamil Nadu","Dindigul","images/pool/kodaikanal.jpg",
 "Hill palace and gardens — a Victorian retreat in the Palani hills.",
 "Kodaikanal was developed as a hill station in the 19th century, and its palace was built by the British. The palace gardens and nearby forests remain a favourite with visitors.",
 ["Victorian palace and rose gardens","Palani hills setting","Kodaikanal Lake nearby"],

@@ -14,16 +14,6 @@
     renderHeader();
     renderDrilldown();
     renderResults();
-    qs("#drilldown").addEventListener("click", (e) => {
-      const chip = e.target.closest("[data-filter]");
-      if (!chip) return;
-      const { kind, val } = chip.dataset;
-      if (kind === "region") state.region = val === "all" ? "" : val;
-      if (kind === "cat") state.cat = val === "all" ? "" : val;
-      state.stateName = "";
-      renderHeader(); renderDrilldown(); renderResults();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
   });
 
   function currentStates() {
@@ -63,12 +53,25 @@
       </div>`;
   }
 
+  /* build a shareable link for a filter combination — every chip is a real link */
+  function chipHref(kind, val) {
+    const p = new URLSearchParams();
+    const region = kind === "region" ? (val === "all" ? "" : val) : state.region;
+    const cat = kind === "cat" ? (val === "all" ? "" : val) : state.cat;
+    const st = kind === "state" ? val : "";
+    if (region) p.set("r", region);
+    if (cat) p.set("c", cat);
+    if (st) p.set("state", st);
+    const q = p.toString();
+    return "region.html" + (q ? "?" + q : "");
+  }
+
   function renderDrilldown() {
     const dd = qs("#drilldown");
-    const regionChips = `<button class="chip ${!state.region ? "active" : ""}" data-filter="region" data-val="all">All Regions</button>` +
-      Object.values(D.regions).map((r) => `<button class="chip ${state.region === r.key ? "active" : ""}" data-filter="region" data-val="${r.key}">${esc(r.name)}</button>`).join("");
-    const catChips = `<button class="chip ${!state.cat ? "active" : ""}" data-filter="cat" data-val="all">All Categories</button>` +
-      D.categories.map((c) => `<button class="chip ${state.cat === c.id ? "active" : ""}" data-filter="cat" data-val="${c.id}">${c.icon} ${esc(c.name)}</button>`).join("");
+    const regionChips = `<a class="chip ${!state.region ? "active" : ""}" href="${chipHref("region", "all")}">All Regions</a>` +
+      Object.values(D.regions).map((r) => `<a class="chip ${state.region === r.key ? "active" : ""}" href="${chipHref("region", r.key)}">${esc(r.name)}</a>`).join("");
+    const catChips = `<a class="chip ${!state.cat ? "active" : ""}" href="${chipHref("cat", "all")}">All Categories</a>` +
+      D.categories.map((c) => `<a class="chip ${state.cat === c.id ? "active" : ""}" href="${chipHref("cat", c.id)}">${c.icon} ${esc(c.name)}</a>`).join("");
     const states = currentStates();
     dd.innerHTML = `
       <div class="drill-row"><span class="drill-label">Region</span><div class="chip-row">${regionChips}</div></div>
@@ -83,7 +86,10 @@
         </div>
         <span style="font-size:.75rem;color:var(--muted2)">— drill down to the state level</span>
       </div>`;
-    qs("#stateSelect", dd).addEventListener("change", (e) => { state.stateName = e.target.value; renderResults(); });
+    qs("#stateSelect", dd).addEventListener("change", (e) => {
+      state.stateName = e.target.value;
+      location.href = chipHref("state", state.stateName);
+    });
   }
 
   function renderResults() {
